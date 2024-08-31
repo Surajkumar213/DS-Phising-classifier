@@ -1,0 +1,18 @@
+[ 2024-08-31 10:10:19,107 ] 225 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-31 10:10:19,139 ] 225 werkzeug - INFO -  * Debugger PIN: 123-911-547
+[ 2024-08-31 10:10:28,873 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2024-08-31 10:10:28,874 ] 225 werkzeug - INFO -  * Running on http://192.168.1.8:8000/ (Press CTRL+C to quit)
+[ 2024-08-31 10:10:29,616 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:10:29] "GET / HTTP/1.1" 200 -
+[ 2024-08-31 10:10:29,814 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:10:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-31 10:10:40,857 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:10:40] "[33mGET /test/ HTTP/1.1[0m" 404 -
+[ 2024-08-31 10:10:40,969 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:10:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-08-31 10:10:47,934 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-31 10:10:47,934 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-31 10:10:47,937 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_31_2024_10_10_12\data_ingestion
+[ 2024-08-31 10:11:09,410 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-08-31 10:11:09,624 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "GET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2024-08-31 10:11:09,628 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "GET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2024-08-31 10:11:09,710 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-08-31 10:11:09,714 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "GET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2024-08-31 10:11:09,778 ] 225 werkzeug - INFO - 127.0.0.1 - - [31/Aug/2024 10:11:09] "GET /train?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -

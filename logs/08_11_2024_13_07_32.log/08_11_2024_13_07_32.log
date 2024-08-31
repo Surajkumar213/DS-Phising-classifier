@@ -1,0 +1,75 @@
+[ 2024-08-11 13:07:37,027 ] 225 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-11 13:07:37,051 ] 225 werkzeug - INFO -  * Debugger PIN: 326-322-647
+[ 2024-08-11 13:07:48,933 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2024-08-11 13:07:48,933 ] 225 werkzeug - INFO -  * Running on http://192.168.248.102:8080/ (Press CTRL+C to quit)
+[ 2024-08-11 13:07:52,439 ] 225 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2024 13:07:52] "GET / HTTP/1.1" 200 -
+[ 2024-08-11 13:08:01,889 ] 225 werkzeug - INFO - 127.0.0.1 - - [11/Aug/2024 13:08:01] "GET /predict HTTP/1.1" 200 -
+[ 2024-08-11 13:08:22,303 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:08:22,304 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-11 13:08:22,306 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_11_2024_13_07_33\data_ingestion
+[ 2024-08-11 13:08:32,740 ] 48 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2024-08-11 13:08:32,843 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-11 13:08:32,844 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:08:32,844 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-11 13:08:32,844 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-11 13:08:32,958 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-11 13:08:32,999 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-11 13:08:33,066 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-11 13:08:33,068 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-11 13:08:33,070 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-11 13:08:33,070 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-11 13:08:33,070 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-11 13:08:33,078 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-11 13:08:33,078 ] 173 root - INFO - Extracting model config file path
+[ 2024-08-11 13:09:39,595 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:09:39,595 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-11 13:09:39,596 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_11_2024_13_07_33\data_ingestion
+[ 2024-08-11 13:09:49,454 ] 48 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2024-08-11 13:09:49,804 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-11 13:09:49,804 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:09:49,804 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-11 13:09:49,804 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-11 13:09:50,152 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-11 13:09:50,255 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-11 13:09:50,380 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-11 13:09:50,381 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-11 13:09:50,383 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-11 13:09:50,384 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-11 13:09:50,384 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-11 13:09:50,386 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-11 13:09:50,386 ] 173 root - INFO - Extracting model config file path
+[ 2024-08-11 13:11:40,333 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:11:40,333 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-11 13:11:40,335 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_11_2024_13_07_33\data_ingestion
+[ 2024-08-11 13:11:52,887 ] 48 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2024-08-11 13:11:53,098 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-11 13:11:53,099 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:11:53,099 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-11 13:11:53,099 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-11 13:11:53,365 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-11 13:11:53,461 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-11 13:11:53,552 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-11 13:11:53,552 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-11 13:11:53,555 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-11 13:11:53,555 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-11 13:11:53,555 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-11 13:11:53,557 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-11 13:11:53,557 ] 173 root - INFO - Extracting model config file path
+[ 2024-08-11 13:11:57,240 ] 69 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:11:57,241 ] 39 root - INFO - Exporting data from mongodb
+[ 2024-08-11 13:11:57,242 ] 46 root - INFO - Saving exported data into feature store file path: artifacts\08_11_2024_13_07_33\data_ingestion
+[ 2024-08-11 13:12:07,392 ] 48 root - INFO - Shape of phising_08012020_120000: (11055, 31)
+[ 2024-08-11 13:12:07,681 ] 74 root - INFO - Got the data from mongodb
+[ 2024-08-11 13:12:07,681 ] 76 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-08-11 13:12:07,681 ] 252 root - INFO - Entered initiate_data_validation method of Data_Validation class
+[ 2024-08-11 13:12:07,682 ] 255 root - INFO - Initiated data validation for the dataset
+[ 2024-08-11 13:12:08,128 ] 79 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-08-11 13:12:08,347 ] 108 root - INFO - Unwanted spaces removal Successful.Exited the remove_unwanted_spaces method of the Preprocessor class
+[ 2024-08-11 13:12:08,495 ] 41 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-08-11 13:12:08,496 ] 47 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-08-11 13:12:08,498 ] 167 root - INFO - Splitting training and testing input and target feature
+[ 2024-08-11 13:12:08,500 ] 169 root - INFO - Extracting model config file path
+[ 2024-08-11 13:12:08,500 ] 56 root - INFO - Entered the load_object method of MainUtils class
+[ 2024-08-11 13:12:08,912 ] 62 root - INFO - Exited the load_object method of MainUtils class
+[ 2024-08-11 13:12:08,912 ] 173 root - INFO - Extracting model config file path

@@ -1,0 +1,5 @@
+[ 2024-08-13 10:46:33,243 ] 225 werkzeug - WARNING -  * Debugger is active!
+[ 2024-08-13 10:46:33,260 ] 225 werkzeug - INFO -  * Debugger PIN: 117-551-950
+[ 2024-08-13 10:46:50,110 ] 225 werkzeug - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+[ 2024-08-13 10:46:50,111 ] 225 werkzeug - INFO -  * Running on http://192.168.157.102:8080/ (Press CTRL+C to quit)
